@@ -7,8 +7,11 @@ public class PemilihanPercobaan127 {
         System.out.print("Masukkan angka: ");
         angka = input27.nextInt();
 
-        String output = (angka%2==0) ? "Angka "+angka+" bilangan genap":"Angka "+angka+" bilangan ganjil";
-        System.out.println(output);
+        if (angka%2==0) {
+            System.out.println("Angka "+angka+" bilangan genap");
+        } else {
+            System.out.println("Angka "+angka+" bilangan ganjil");
+        }
 
         input27.close();
     }
